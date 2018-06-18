@@ -26,7 +26,7 @@ The zyte coin is a decentralized peer-to-peer banking financial platform, create
 
   
 
-*Instamine Protection: to prevent instamine, the first 500 blocks reward will be 2 ZYTE , from block 501 to 1500 block reward will be 3, and from block 1501-infinite , block reward will be 50. Expected time to reach block 1501: 48 hours
+*Instamine Protection: to prevent instamine, the first 500 blocks reward will be 5 ZYTE , from block 501 to infinite block reward will be 15.
 
 
 Build zyte Wallet
