@@ -1,0 +1,26 @@
+[Unit]
+Description=zyte's distributed currency daemon
+After=network.target
+
+[Service]
+User=zyte
+Group=zyte
+
+Type=forking
+PIDFile=/var/lib/zyted/zyted.pid
+
+ExecStart=/usr/bin/zyted -daemon -pid=/var/lib/zyted/zyted.pid \
+          -conf=/etc/zyte/zyte.conf -datadir=/var/lib/zyted
+
+ExecStop=-/usr/bin/zyte-cli -conf=/etc/zyte/zyte.conf \
+         -datadir=/var/lib/zyted stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

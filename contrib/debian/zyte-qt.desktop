@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=zyte
+Comment=zyte P2P Cryptocurrency
+Comment[fr]=zyte, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=zyte, eşten eşe kriptografik sanal para birimi
+Exec=zyte-qt %u
+Terminal=false
+Type=Application
+Icon=zyte128
+MimeType=x-scheme-handler/zyte;
+Categories=Office;Finance;
