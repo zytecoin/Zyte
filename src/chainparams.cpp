@@ -121,7 +121,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1529094675;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 0;
+        genesis.nNonce = 1791817;
 
 
         hashGenesisBlock = genesis.GetHash();
