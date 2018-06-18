@@ -17,7 +17,7 @@ The zyte coin is a decentralized peer-to-peer banking financial platform, create
 |:-----------|:-----------|
 | Block Size | `4MB` |
 | Block Time | `120s` |
-| PoW Reward | `50 ZYTE` |*
+| PoW Reward | `15 ZYTE` |*
 | Masternode Requirement | `5,000 ZYTE` |
 | Port | `28676` |
 | RPC Port | `28674` |
