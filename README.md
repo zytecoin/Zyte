@@ -17,7 +17,7 @@ The zyte coin is a decentralized peer-to-peer banking financial platform, create
 |:-----------|:-----------|
 | Block Size | `4MB` |
 | Block Time | `120s` |
-| PoW Reward | `15 ZYTE` |*
+| PoW Reward | `15 ZYTE` |**
 | Masternode Requirement | `5,000 ZYTE` |
 | Port | `28676` |
 | RPC Port | `28674` |
@@ -27,6 +27,7 @@ The zyte coin is a decentralized peer-to-peer banking financial platform, create
   
 
 *Instamine Protection: to prevent instamine, the first 500 blocks reward will be 5 ZYTE , from block 501 to infinite block reward will be 15.
+**Block reward is divided 50% miners and 50% masternodes, it may change depending on coin supply and masternodes online.
 
 
 Build zyte Wallet
