@@ -38,7 +38,7 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>make40</width>
+         <width>40</width>
          <height>20</height>
         </size>
        </property>
@@ -304,6 +304,11 @@
            <attribute name="ResizeMode">
             <enum>QHeaderView::Interactive</enum>
            </attribute>
+           <column>
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </column>
            <column>
             <property name="text">
              <string>Protocol</string>
