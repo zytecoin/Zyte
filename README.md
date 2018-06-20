@@ -1,4 +1,4 @@
-<a href="http://es.tinypic.com?ref=v8kd53" target="_blank"><img src="http://i63.tinypic.com/v8kd53.png" border="0" alt="Image and video hosting by TinyPic"></a>
+<a href="http://es.tinypic.com?ref=2chb4n" target="_blank"><img src="http://i65.tinypic.com/2chb4n.png" border="0" alt="Image and video hosting by TinyPic"></a>
 
 Features
 =============
