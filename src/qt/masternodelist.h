@@ -49,7 +49,6 @@ public Q_SLOTS:
     void updateMyMasternodeInfo(QString strAlias, QString strAddr, CMasternode* pmn);
     void updateMyNodeList(bool fForce = false);
     void updateNodeList();
-
 Q_SIGNALS:
 
 private:
@@ -70,5 +69,3 @@ private Q_SLOTS:
     void on_UpdateButton_clicked();
 };
 #endif // MASTERNODELIST_H
-
-© 2018 GitHub, Inc.
