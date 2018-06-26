@@ -81,14 +81,15 @@ Once the source code is ready the build steps are below.
     # If you want to build the Qt GUI:
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
-    git clone https://github.com/zytecoin/zyte.git --recursive
+    git clone https://github.com/zytecoin/Zyte.git --recursive
     
-    cd zyte
+    cd Zyte
 
     # Note autogen will prompt to install some more dependencies if needed
     ./autogen.sh
     ./configure 
     make
+    make install
 
 ### Build on OSX
 
